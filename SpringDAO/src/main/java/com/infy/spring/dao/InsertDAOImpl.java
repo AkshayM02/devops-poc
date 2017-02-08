@@ -20,6 +20,7 @@ public class InsertDAOImpl implements InsertDAO{
 		shop.setName(name);
 		shop.setId("Shop 1");
 		shop.setStaffName(new String[] { "suprakash", "1234" });
+		System.out.println("Hi");
 		return shop;
 	}
 
